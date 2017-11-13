@@ -10,6 +10,8 @@ gem 'bootstrap-sass', '~> 3.3.4'
 gem 'sass-rails', '~> 5.0'
   # Use Uglifier as compressor for JavaScript assets      # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+# Update CoffeeScript 1.8.0 version: bundle update coffee-script-source
+gem 'coffee-script-source', '1.8.0'
   # Use CoffeeScript for .coffee assets and views     # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes      # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -22,6 +24,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
   # bundle exec rake doc:rails generates the API under doc/api.     # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+
+# TZIndo gem addition
+  gem 'tzinfo-data'
 
 group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console       # Call 'byebug' anywhere in the code to stop execution and get a debugger console
